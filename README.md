@@ -1,0 +1,2 @@
+# Mistelten
+GitHubのRepositoryのReleaseのダウンロード数を簡単に確認するソフト
