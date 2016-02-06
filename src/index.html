@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="../node_modules/bulma/css/bulma.min.css">
+  <link rel="stylesheet" href="font-awesome-4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="index.css">
+  <script>window.$ = window.jQuery = require('jquery');</script>
+  <script src="index.js"></script>
+  <title>Mistelten</title>
+</head>
+<body>
+  <section class="hero is-primary">
+    <div class="hero-content">
+      <div class="container">
+        <h1 class="title">
+          Mistelten
+        </h1>
+        <h2 class="subtitle">
+          Check downloads of your software on GitHub easily
+        </h2>
+      </div>
+    </div>
+    <a onclick="require('electron').shell.openExternal('https://prince-0203.github.io/Mistelten#help')" style="color: white; position: absolute; top: 10px; right: 10px"><span class="icon"><i class="fa fa-question-circle"></i></span></a>
+  </section>
+  <section class="section" id="mainFormSection">
+    <div class="container">
+      <form id="mainForm">
+        <p class="control is-withicon">
+          <input class="input" id="accessToken" placeholder="Access Token">
+          <i class="fa fa-key"></i>
+        </p>
+        <p class="control is-withicon">
+          <input class="input" id="nameOfRepo" placeholder="Name of Repository(e.g. prince-0203/Mistelten)">
+          <i class="fa fa-book"></i>
+        </p>
+        <p class="control">
+          <button type="submit" class="button is-primary" id="check"><i class="fa fa-send"></i> Check</button>
+        </p>
+      </form>
+    </div>
+  </section>
+  <section class="section" id="result" style="display: none">
+    <div class="container">
+      <div class="tabs">
+        <ul id="releases"></ul>
+      </div>
+      <table id="assets" class="table">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Download Count</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+</body>
+</html>
