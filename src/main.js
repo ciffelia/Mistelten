@@ -37,7 +37,6 @@ app.on('ready', function() {
 
   mainWindow.webContents.on('dom-ready', function() {
     mainWindow.show();
-    mainWindow.openDevTools();
   });
 
   mainWindow.on('closed', function() {

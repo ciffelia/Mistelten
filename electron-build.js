@@ -8,8 +8,8 @@ const obj = {
   dir: './',
   out: './electron-packager-dist',
   name: config.name,
-  platform: 'win32',
-  arch: 'x64',
+  platform: 'all',
+  arch: 'all',
   icon: './app-icon/icon',
   version: '0.36.7',
 
