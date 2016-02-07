@@ -5,7 +5,7 @@
 [![Issue Count](https://codeclimate.com/github/prince-0203/Mistelten/badges/issue_count.svg)](https://codeclimate.com/github/prince-0203/Mistelten)
 [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)  
 GitHubのReleaseのダウンロード数を簡単に確認するソフト - https://prince-0203.github.io/Mistelten  
-[![Mistelten](http://i.imgur.com/Vf9JJVVm.png)](http://i.imgur.com/Vf9JJVV.png)
+[![Mistelten](http://i.imgur.com/Vf9JJVVm.png)](http://imgur.com/Vf9JJVV)
 <img src="app-icon/icon.png" width="256px" height="256px"></img>
 Windows、Mac、Linux対応です。  
 Mistelten(ミスティルテイン)はスウェーデン語でヤドリギを意味します。深い意味はないです。<s>厨二病っぽい?</s>  
