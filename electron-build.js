@@ -23,8 +23,7 @@ const obj = {
   ignore: 'electron-build\\.js$|README\\.md$|\\.codeclimate\\.yml$|\\.csslintrc$|\\.eslintignore$|\\.eslintrc$|\\.gitignore$|\\.travis.yml$|logs($|/)|npm-debug.log$|\\.sublime-(.+)$|electron-packager-dist($|/)',
   'version-string': {
     CompanyName: config.author,
-    FileDescription: config.description,
-    OriginalFilename: config.name,
+    FileDescription: config.name,
     FileVersion: config.version,
     ProductVersion: config.version,
     ProductName: config.name,
