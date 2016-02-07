@@ -1,0 +1,5 @@
+.button.is-white.is-outlined {
+  background: transparent;
+  border-color: white;
+  color: white;
+}

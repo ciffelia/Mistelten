@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="favicon.png" sizes="16x16">
+  <meta name="author" content="prince">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@prince__0203">
+  <meta name="og:type" content="website">
+  <meta name="og:title" content="Mistelten">
+  <meta name="og:image" content="https://prince-0203.github.io/Mistelten/apple-touch-icon.png">
+  <meta name="og:description" content="Check downloads of your software on GitHub easily">
+  <meta name="og:url" content="https://prince-0203.github.io/Mistelten/">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/jgthms/bulma/master/css/bulma.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="index.css">
+  <title>Mistelten</title>
+</head>
+<body>
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.5";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+  <header class="header">
+    <div class="container">
+      <!-- Left side -->
+      <div class="header-left">
+        <span class="header-item">
+          <img src="logo.png" alt="Mistelten">
+        </span>
+      </div>
+
+      <!-- Hamburger menu (on mobile) -->
+      <span class="header-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </span>
+
+      <!-- Right side -->
+      <div class="header-right header-menu">
+        <span class="header-item">
+          <a class="button" href="https://github.com/prince-0203/Mistelten" target="_blank">
+            <i class="fa fa-github"></i>
+            GitHub
+          </a>
+        </span>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero is-success">
+    <div class="hero-content">
+      <div class="container">
+        <h1 class="title">
+          Mistelten
+        </h1>
+        <h2 class="subtitle">
+          Check downloads of your software on GitHub easily
+        </h2>
+        <a class="button is-white is-outlined is-large" href="https://github.com/prince-0203/Mistelten/releases/latest" target="_blank">
+          <i class="fa fa-download"></i>
+          Download
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="help">
+    <div class="container">
+      <div class="heading">
+        <h1 class="title">How to use</h1>
+      </div>
+      <div class="content">
+        <ol>
+          <li>
+            <a href="https://github.com/settings/tokens" target="_blank">GitHubのPersonal access tokens</a>にアクセスし、「Generate new token」をクリックします。<br />
+            <img src="images/1.png" alt="Personal access tokens">
+          </li>
+          <li>
+            「Token description」に適当な名前を入力します。<br />
+            また、自分がアクセスできるPrivate Repositoryの情報も確認したい場合は「repo」にチェックを入れます。Public Repositoryのみの場合はチェックを入れなくて構いません。<br />
+            入力し終わったら「Generate Token」をクリックします。<br />
+            <img src="images/2.png" alt="New personal access token">
+          </li>
+          <li>
+            Access tokenが表示されるので忘れずにコピーします。後でこのページを見てもAccess tokenを確認することはできないので気を付けましょう。(もし忘れてしまった場合は再生成できます)<br />
+            <img src="images/3.png" alt="Personal access tokens">
+          </li>
+          <li>
+            Misteltenを起動し、「Access Token」に3でコピーしたAccess Tokenを、「Repository Name」にリポジトリの名前を入力し、「Check」をクリックします。<br />
+            <img src="images/4.png" alt="Personal access tokens">
+          </li>
+          <li>
+            ダウンロード数が表示されます。なお、「Access Token」・「Repository Name」に入力した内容はアプリを閉じる際に自動的に保存されます。<br />
+            <img src="images/5.png" alt="Personal access tokens">
+          </li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="content is-centered">
+        <p>(c)prince 2016</p>
+        <p>
+          <a href="https://twitter.com/intent/tweet?url=https%3a%2f%2fprince%2d0203%2egithub%2eio%2fMistelten&text=Mistelten%20%2d%20Check%20downloads%20of%20your%20software%20on%20GitHub%20easily" target="_blank" class="button"><i class="fa fa-twitter"></i> Tweet</a>
+          <a href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fprince%2d0203%2egithub%2eio%2fMistelten" target="_blank" class="button"><i class="fa fa-facebook"></i> Share</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
