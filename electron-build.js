@@ -18,7 +18,7 @@ const obj = {
   'app-version': config.version,
   'helper-bundle-id': 'io.github.prince-0203',
   overwrite: true,
-  asar: false,
+  asar: true,
   prune: true,
   ignore: 'electron-build\\.js$|README\\.md$|\\.codeclimate\\.yml$|\\.csslintrc$|\\.eslintignore$|\\.eslintrc$|\\.gitignore$|\\.travis.yml$|logs($|/)|npm-debug.log$|\\.sublime-(.+)$|electron-packager-dist($|/)',
   'version-string': {
