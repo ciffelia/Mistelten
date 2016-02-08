@@ -3,3 +3,8 @@
   border-color: white;
   color: white;
 }
+
+.button.is-white.is-outlined:hover, .button.is-white.is-outlined:focus {
+  border-color: #eeeeee;
+  color: #eeeeee;
+}
