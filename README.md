@@ -8,7 +8,7 @@ GitHubのReleaseのダウンロード数を簡単に確認するソフト - http
 ![Mistelten](https://prince-0203.github.io/Mistelten/images/ScreenShot.png)
 <img src="app-icon/icon.png" width="256px" height="256px"></img>  
 Windows、Mac、Linux対応です。  
-Mistelten(ミスティルテイン)はスウェーデン語でヤドリギを意味します。深い意味はないです。<s>厨二病っぽい?</s>  
+[Mistelten(ミスティルテイン)](https://ja.wikipedia.org/wiki/%E3%83%9F%E3%82%B9%E3%83%86%E3%82%A3%E3%83%AB%E3%83%86%E3%82%A4%E3%83%B3)はスウェーデン語でヤドリギを意味します。深い意味はないです。<s>厨二病っぽい?</s>  
 IssueやPull Requestは自由に送っていただいて構いません。
 
 # ソースコードから実行
