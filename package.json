@@ -20,7 +20,7 @@
   "homepage": "https://github.com/prince-0203/Mistelten#readme",
   "devDependencies": {
     "electron-packager": "^7.0.4",
-    "electron-prebuilt": "^0.36.7"
+    "electron-prebuilt": "^1.2.5"
   },
   "dependencies": {
     "bulma": "^0.0.14",
