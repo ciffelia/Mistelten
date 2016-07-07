@@ -11,6 +11,12 @@ addons:
     packages:
       - wine
 
+cache:
+  - apt: true
+  - directories:
+    - "$HOME/.npm"
+    - "$HOME/.electron"
+
 install:
   - npm install
 
