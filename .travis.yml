@@ -1,10 +1,14 @@
+os:
+  - linux
+  - osx
+osx_image: xcode8
+sudo: false
+
 language: node_js
 node_js:
   - "6"
   - "5"
   - "4"
-
-sudo: false
 
 addons:
   apt:
