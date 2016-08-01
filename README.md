@@ -1,5 +1,4 @@
 # Mistelten
-<a href="https://travis-ci.org/prince-0203/Mistelten" target="_blank">![Build Status](https://travis-ci.org/prince-0203/Mistelten.svg?branch=master)</a>
 <a href="https://gemnasium.com/prince-0203/Mistelten" target="_blank">![Dependency Status](https://gemnasium.com/prince-0203/Mistelten.svg)</a>
 <a href="https://codeclimate.com/github/prince-0203/Mistelten" target="_blank">![Code Climate](https://codeclimate.com/github/prince-0203/Mistelten/badges/gpa.svg)</a>
 <a href="https://codeclimate.com/github/prince-0203/Mistelten" target="_blank">![Issue Count](https://codeclimate.com/github/prince-0203/Mistelten/badges/issue_count.svg)</a>
