@@ -10,10 +10,10 @@ node_js:
   - "5"
   - "4"
 
-# addons:
-#   apt:
-#     packages:
-#       - wine
+addons:
+  apt:
+    packages:
+      - wine
 
 cache:
   - apt: true
